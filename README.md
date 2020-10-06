@@ -2,7 +2,7 @@ A collection of microfluidics-related scripts. All have dosctrings explaining wh
 
 The files are listed below.
 
-#Current Scripts
+# Current Scripts
 Usable as-is.
 
 * arduinoGUI.py: A basic GUI to interface with an Arduino UNO
@@ -11,7 +11,7 @@ Usable as-is.
 * mccdaqFuncs.py: Functions for interfacing with the MCCDAQ boards
 * *Note to self: add the micromanager script if possible*
 
-#Imperfect Scripts
+# Imperfect Scripts
 Have some salvageable parts, but are not usable as-is.
 
 * Temperature.py: A script that attempts to perform temperature PID. The right settings haven't been found and tested to ensure good performance.
@@ -20,7 +20,7 @@ Have some salvageable parts, but are not usable as-is.
 * AutomationChannels.py: Script that outputs varying pressure to create different types of droplets. I believe previous tests of the script worked, but I am not sure there were no issues.
 * checkFluorescenceOutput.py: Script that adjusts pressure ratios when creating droplets to create droplets with a certain luminescence. The droplet identification algorithm is not as good as the one in dropletAnalysisFuncs.py
 
-#Unusable Scripts
+# Unusable Scripts
 Outdated or incomplete scripts
 
 * ImageAnalysis.py: Functions that attempt to identify and analyze fluorescent droplets. Does not work as well as dropletAnalysisFuncs.py
