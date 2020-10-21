@@ -9,7 +9,6 @@ Usable as-is.
 * dropletAnalysisFuncs.py: Functions and classes used to identify droplets from a grayscale picture of fluorescent droplets.
 * dropletAnalysisGUI.py: A script that, when run, gives a GUI to analyze a folder of droplets, and put its output (images showing identified droplets and a summary .csv file) in another folder.
 * mccdaqFuncs.py: Functions for interfacing with the MCCDAQ boards
-* *Note to self: add the micromanager script if possible*
 
 # Imperfect Scripts
 Have some salvageable parts, but are not usable as-is.
@@ -19,6 +18,7 @@ Have some salvageable parts, but are not usable as-is.
 * DropletWashThrough2.py: Script that washes droplets through a channel, but does not take pictures of them. Based off DropletWashThrough.py
 * AutomationChannels.py: Script that outputs varying pressure to create different types of droplets. I believe previous tests of the script worked, but I am not sure there were no issues.
 * checkFluorescenceOutput.py: Script that adjusts pressure ratios when creating droplets to create droplets with a certain luminescence. The droplet identification algorithm is not as good as the one in dropletAnalysisFuncs.py
+* uManagerFuncs.py: General functions to run micromanager. It has not been updated to interface with the Hamamatsu ORCA camera & Lumencor Celesta light source.
 
 # Unusable Scripts
 Outdated or incomplete scripts
