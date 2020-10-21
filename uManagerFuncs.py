@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Python 2.7
+@author: Lia Thomson
 
-uManagerFuncs
-
-contains multiple functions useful for using the Nikon Eclipse microscope
+Contains multiple functions useful for using the Nikon Eclipse microscope.
+Must be run in Python 2.7
 """
 
 #import MMCore package
